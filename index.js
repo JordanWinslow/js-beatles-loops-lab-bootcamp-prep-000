@@ -11,7 +11,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 function johnLennonFacts(facts){
   // receive an array of facts about John Lennon
-  var arrayIndex = 0
+  let arrayIndex = 0
   while (arrayIndex < facts.length){
     facts[arrayIndex] += "!!!"
     arrayIndex++
